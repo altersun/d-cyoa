@@ -15,7 +15,9 @@ downloads/
 eggs/
 .eggs/
 lib/
+bin/
 lib64/
+lib64
 parts/
 sdist/
 var/
@@ -23,6 +25,7 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
+pyvenv.cfg
 *.egg
 MANIFEST
 

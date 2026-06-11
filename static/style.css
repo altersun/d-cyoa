@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#app {
+  max-width: 600px;
+  width: 100%;
+}
+
+#scene-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#scene-text {
+  white-space: pre-wrap;
+  margin-bottom: 1.5rem;
+}
+
+#choices button,
+#back-button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #333;
+  color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+#choices button:hover,
+#back-button:hover {
+  background: #555;
+}
+
+#back-button {
+  margin-top: 1rem;
+  background: #222;
+}
