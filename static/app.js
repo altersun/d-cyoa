@@ -30,14 +30,16 @@ async function loadScene(sceneId, pushHistory = true) {
 }
 
 function renderScene(scene) {
+  console.log("Scene: ", scene)
   sceneText.textContent = scene.text;
 
   if (scene.image) {
     console.log("attempting to load image:", scene.image)
     sceneImage.src = scene.image;
-    sceneImage.hidden = false;
+    sceneImage.removeAttribute("hidden");
+    console.log("Img? ", document.getElementById("scene-image").src)
   } else {
-    sceneImage.hidden = true;
+    sceneImage.setAttribute("hidden", "");
   }
 
   choicesDiv.innerHTML = "";

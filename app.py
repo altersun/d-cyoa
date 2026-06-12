@@ -1,14 +1,15 @@
 from sanic import Sanic
 from sanic.response import json, file
 from sanic.exceptions import NotFound
+from sanic.log import logger
 from pathlib import Path
 import yaml
 
 app = Sanic("cyoa")
 
 BASE_DIR = Path(__file__).parent
-ADVENTURES_DIR = BASE_DIR / "adventures"
 STATIC_DIR = BASE_DIR / "static"
+ADVENTURES_DIR = STATIC_DIR / "adventures"
 
 
 def load_scene(adventure_id: str, scene_id: str):
@@ -37,7 +38,8 @@ def load_scene(adventure_id: str, scene_id: str):
     image_url = None
     if "image" in data:
         #image_url = f"/static/adventures/{adventure_id}/images/{data['image']}"
-        image_url = f"/{ADVENTURES_DIR}/{adventure_id}/images/{data['image']}"
+        image_url = f"/assets/{adventure_id}/images/{data['image']}"
+        logger.debug(f"Image URL: {image_url}")
 
     return {
         "id": data.get("id", scene_id),
@@ -45,6 +47,16 @@ def load_scene(adventure_id: str, scene_id: str):
         "image": image_url,
         "choices": choices
     }
+
+@app.get("/debug")
+async def debug(request):
+    url = ADVENTURES_DIR / "demo" / "images" / "trees.webp"
+    return json({
+        "url" : f"{url}",
+        "exists": (
+            url
+        ).exists()
+    })
 
 
 @app.get("/")
@@ -72,8 +84,11 @@ async def get_scene(request, adventure_id, scene_id):
     return json(scene)
 
 
-app.static("/static", STATIC_DIR)
+#app.static("/static", STATIC_DIR)
+#app.static("/static/adventures", ADVENTURES_DIR)
 
+app.static("/static", STATIC_DIR, name="static_root")
+app.static("/assets", ADVENTURES_DIR, name="adventure_assets")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, dev=True)

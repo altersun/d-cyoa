@@ -1,0 +1,12 @@
+id: inside_kiki
+
+text: |
+  You go into Kiki's and approach the scratch ticket machine.
+  It ask you for your Driver's license...
+  You don't have one! You're just a kid!
+
+image: donnybrook35.jpg
+
+choices: 
+  Go back outside: kiki  
+  

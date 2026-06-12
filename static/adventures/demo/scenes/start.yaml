@@ -1,0 +1,8 @@
+id: start
+
+text: |
+  The start of the demo. There's some trees over there, a big hole the other way.
+
+choices:
+  Go check out the hole: big_hole
+  Go lookit the trees: trees

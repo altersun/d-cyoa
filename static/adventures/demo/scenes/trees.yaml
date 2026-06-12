@@ -1,0 +1,11 @@
+id: trees
+
+text: |
+  There's some trees
+  There's also some jerks selling the trees!
+
+image: trees.png
+
+choices: 
+  Go jump in a hole instead: hole
+  Buy a tree: win

@@ -1,0 +1,12 @@
+id: kim
+
+text: |
+  You wait for Kim to stop traffic with her trusty stop sign. 
+  She waves you across.
+  "C'mon hun!"
+  You thank her as you cross the street.
+
+choices: 
+  Cross to Beechcroft: beechcroft
+
+  

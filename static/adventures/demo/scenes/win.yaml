@@ -1,0 +1,10 @@
+id: win
+
+text: |
+  You bought a tree from a jerk. You win!
+
+image: winner.jpg
+
+choices:
+  Go back to start: start
+  

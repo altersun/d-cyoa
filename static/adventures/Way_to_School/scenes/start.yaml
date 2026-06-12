@@ -1,0 +1,14 @@
+id: start
+
+text: |
+  Time to go to school!
+  You just left your house at 35 Donnybrook Rd.
+  Which way should you go?
+
+image: donnybrook35.jpg
+
+choices: 
+  Down the street to Faneuil: donnybrook_and_faneuil
+  Up the street to Brooks: donnybrook_and_brooks
+  Go back inside: biscuit
+  

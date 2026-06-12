@@ -1,0 +1,8 @@
+id: lose
+
+text: |
+  You fall down a big hole and get hurt really bad.
+  You lose!
+
+choices:
+  Go back to start: start

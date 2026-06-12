@@ -1,0 +1,13 @@
+id: biscuit
+
+text: |
+  You see your cat, Biscuit. He meows at you with curiousity.
+  It's almost as if he's asking you:
+  "Weren't you going to school?"
+
+#image: biscuit.jpg
+
+choices: 
+  Go back outside: start
+  Go up back to bed: iriska
+  

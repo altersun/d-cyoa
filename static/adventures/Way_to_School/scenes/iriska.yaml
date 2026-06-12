@@ -1,0 +1,13 @@
+id: iriska
+
+text: |
+  You pass by another cat, Dexter, to head back upstairs to go to bed.
+  In your room, you see your third cat, Iriska.
+  She meows a huffy meow at you almost demanding:
+  "You're supposed to be going to school!"
+
+#image: iriska.jpg
+
+choices: 
+  Ok, ok, I'll go to school: start
+  #Shoo Iriska away and go back to bed: bed

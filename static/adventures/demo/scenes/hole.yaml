@@ -1,0 +1,10 @@
+id: hole
+
+text: |
+  There's a big wide hole in the ground. It's deep.
+  You can't see the bottom...
+
+choices:
+  Jump in: lose
+  Go lookit the treese instead: trees
+  

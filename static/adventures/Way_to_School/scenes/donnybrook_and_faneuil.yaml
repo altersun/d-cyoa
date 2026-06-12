@@ -1,0 +1,11 @@
+id: donnybrook_and_faneuil
+
+text: |
+  You're at the intersection where Donnoybrook Rd meets busy Faneuil St.
+  Which way to you go from here? 
+
+image: faneuil.jpg
+
+choices: 
+  Right towards Kiki's: kiki
+  #Left...and see what happens: south_hobart
