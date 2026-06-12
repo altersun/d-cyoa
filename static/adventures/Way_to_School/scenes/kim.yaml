@@ -4,7 +4,7 @@ text: |
   It's Kim the crossing guard! She says hello.
   She holds up her stop sign as she steps into the street...
 
-image: kim.jpg
+image: kim.png
 
 choices: 
   Wait for the cars to stop: stop_and_wait

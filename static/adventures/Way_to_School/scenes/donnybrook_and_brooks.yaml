@@ -1,0 +1,12 @@
+id: donnybrook_and_brooks
+
+text: |
+  You're at the intersection where Donnybrook Rd meets Brooks St.
+  Hobart Park isn't far away...
+  #TODO: Going to Hobart supported soon!
+
+image: brooks.png
+
+choices: 
+  Back down to the house: start
+  #Left...and see what happens: south_hobart

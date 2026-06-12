@@ -1,0 +1,15 @@
+id: beechcroft_walk
+
+text: |
+  You have plenty of time. Why not relax with a walk?
+  You walk up past a few houses.
+  By taking your time, you're able to look around.
+  You see some small butterflies fly by.
+  Lucky!
+
+image: white_butterfly.png
+
+choices: 
+  Keep Going: mary_lyon
+
+  

@@ -1,0 +1,11 @@
+id: beechcroft_run
+
+text: |
+  You can't wait to get to school. You run!
+  On your way, you see the car of one of your friends drive up.
+  Let's see if you can get there first!
+
+choices: 
+  Keep Going: mary_lyon
+
+  

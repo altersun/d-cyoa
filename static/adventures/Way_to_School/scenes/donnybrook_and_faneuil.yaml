@@ -1,10 +1,10 @@
 id: donnybrook_and_faneuil
 
 text: |
-  You're at the intersection where Donnoybrook Rd meets busy Faneuil St.
+  You're at the intersection where Donnybrook Rd meets busy Faneuil St.
   Which way to you go from here? 
 
-image: faneuil.jpg
+image: faneuil.png
 
 choices: 
   Right towards Kiki's: kiki

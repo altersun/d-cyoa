@@ -5,8 +5,6 @@ text: |
   It ask you for your Driver's license...
   You don't have one! You're just a kid!
 
-image: donnybrook35.jpg
-
 choices: 
   Go back outside: kiki  
   

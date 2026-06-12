@@ -1,0 +1,11 @@
+id: mary_lyon
+
+text: |
+  You're at school! Nice work.
+  What will you learn today?
+
+image: Mary_Lyon.png
+
+choices: 
+  Congratulations! Play again?: start
+  

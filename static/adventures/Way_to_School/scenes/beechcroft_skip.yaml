@@ -1,0 +1,11 @@
+id: beechcroft_skip
+
+text: |
+  You decide to have some fun and skip to school.
+  After a minute of skipping, you see Mr. Sherman the gym teacher.
+  He sees you exercising and gives you a big thumbs up!
+
+choices: 
+  Keep Going: mary_lyon
+
+  

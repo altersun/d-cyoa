@@ -1,0 +1,13 @@
+id: run_accross
+
+text: |
+  You dash into the street.
+  Cars screetch to a halt, barely missing you.
+  They honk their horns. The drivers are mad!
+  "Next time wait for me, hun!" says Kim.
+  You mumble "sorry" and cross the rest of the way.
+
+choices: 
+  Now what?: beechcroft
+
+  

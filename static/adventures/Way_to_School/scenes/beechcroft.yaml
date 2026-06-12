@@ -1,0 +1,15 @@
+id: beechcroft
+
+text: |
+  You're at the corner of Beechcroft and Faneuil.
+  Almost to school!
+  Now how to get there?
+
+image: beechcroft.png
+
+choices: 
+  Walk: beechcroft_walk
+  Run!: beechcroft_run
+  Skip?: beechcroft_skip
+
+  
